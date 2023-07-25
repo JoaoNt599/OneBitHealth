@@ -1,21 +1,28 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+    textIn: {
+        fontSize: 20,
+        fontWeight: "bold",
+        justifyContent: "center"
+    },
+
     formContext: {
         width:"100%",
-        height:"100%",
+        height:"85%",
         justifyContent: "space-around",
         backgroundColor: "#ffffff",
         alignItems:"center",
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
-        paddingTop: 30,
+        borderRadius: 30,
+        paddingTop: 0,
     },
 
     form: {
         width:"100%",
         height:"auto",
-        marginTop: 30,
+        marginTop: 0,
         padding: 10,
     },
 
@@ -56,6 +63,11 @@ const styles = StyleSheet.create({
         color: "red",
         fontWeight: "bold",
         paddingLeft: 20,
+    },
+
+    exhibitionResultImc: {
+        width: "100%",
+        height: "50%",
     }
 });
 
