@@ -4,19 +4,19 @@ const styles = StyleSheet.create({
     textIn: {
         fontSize: 20,
         fontWeight: "bold",
-        justifyContent: "center"
+        justifyContent: "center",
     },
 
     formContext: {
         width:"100%",
-        height:"85%",
+        height:"100%",
         justifyContent: "space-around",
         backgroundColor: "#ffffff",
         alignItems:"center",
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
         borderRadius: 30,
-        paddingTop: 0,
+        paddingTop: 30,
     },
 
     form: {
@@ -68,6 +68,24 @@ const styles = StyleSheet.create({
     exhibitionResultImc: {
         width: "100%",
         height: "50%",
+    },
+
+    listImcs: {
+        marginTop: 20,
+
+    },
+
+    resultImcItem: {
+        fontSize: 26,
+        color: "red",
+        height: 50,
+        width: "100%",
+        paddingRight: 20,
+    },
+
+    textResultItemList: {
+        fontSize: 16,
+        color: "red",
     }
 });
 
